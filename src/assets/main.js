@@ -28,8 +28,8 @@ function showCourses(courses){
 		
 		$('<a />', {
 			'class': 'btn btn-primary',
-			href: course.url,
 			target: '_blank',
+			href: course.url,
 			text: 'See Course' 
 		}).appendTo($course);
 		
